@@ -1,0 +1,173 @@
+    1  df -h
+    2  ifconfig
+    3  ip -a
+    4  ip
+    5  yum repolist
+    6  ip -add
+    7  ip-add
+    8  which ip
+    9  ip
+   10  ip address
+   11  yum lisit | grep httpd
+   12  yum list | grep httpd
+   13  yum install -y httpd
+   14  service httpd start
+   15  init 0
+   16  ifconfig
+   17  ip -a
+   18  ip -add
+   19  ip add
+   20  ip -address
+   21  curl ifconfig.co
+   22  if up
+   23  ip add
+   24  ifup enps0s8
+   25  ifup enp0s8
+   26  ifconfig
+   27  ip add
+   28  init 0
+   29  pwd
+   30  git --version
+   31  yum repolist
+   32  yum list
+   33  yum list | grep git
+   34  pwd
+   35  ll
+   36  mkdir CGI
+   37  cd CGI
+   38  pwd
+   39  ls -l
+   40  git init
+   41  ls -l
+   42  ls -la
+   43  touch welcome.txt
+   44  ls -l
+   45  pwd
+   46  git status
+   47  git add .
+   48  git status
+   49  git commit . -m "Test CGI"
+   50  git config --global user.email "raghu@example.com"
+   51  git config --global user.name "Raghu"
+   52  git commit . -m "Test CGI"
+   53  git status
+   54  ls -l
+   55  git ls-files
+   56  ls -la
+   57  cd .git
+   58  ls -la
+   59  cd ..
+   60  git history
+   61  git log
+   62  cd .git/
+   63  ll
+   64  cd ..
+   65  git branch
+   66  git branch march
+   67  git branch
+   68  git ls-files
+   69  git checkout march
+   70  git branch
+   71  git ls-files
+   72  git branch
+   73  touch march-welcome.txt
+   74  git add .
+   75  git commit . -m "march-welcome"
+   76  git log
+   77  git ls-files
+   78  git checkout master
+   79  git ls-files
+   80  git log
+   81  git checkout march
+   82  git log
+   83  git branch
+   84  git checkout master
+   85  ll
+   86  ls -files
+   87  ls
+   88  vi welcome.txt 
+   89  git branch
+   90  git status
+   91  git commit -a
+   92  git status
+   93  cat welcome.txt 
+   94  git ls-files
+   95  git log
+   96  cat welcome.txt 
+   97  git ls-files
+   98  git branch
+   99  git checkout march
+  100  ll
+  101  cat welcome.txt 
+  102  cat welcome.txt 
+  103  git checkout master
+  104  ll
+  105  rm welcome.txt 
+  106  ls -lrth
+  107  git ls-files
+  108  git checkout welcome.txt
+  109  ll
+  110  cat welcome.txt 
+  111  rm welcome.txt 
+  112  git log
+  113  git checkout 661952dc2fd791d1bb6b72d6ecc4acbbb4f82308
+  114  cat welcome.txt 
+  115  git status
+  116  git checkout master
+  117  cat welcome.txt 
+  118  git branch
+  119  git branch -M main
+  120  git branch
+  121  git remote add origin https://github.com/raghuopsdev/cgi.git
+  122  git remote -v
+  123  git push -u origin main
+  124  git push -u origin main
+  125  pwd
+  126  ll
+  127  mkdir sample
+  128  cd sample/
+  129  ll
+  130  git clone https://github.com/raghuopsdev/hello-world-1.git
+  131  ll
+  132  cd hello-world-1/
+  133  ll
+  134  ll
+  135  pwd
+  136  ll
+  137  mvn
+  138  java -version
+  139  java --version
+  140  yum list | grep jdk
+  141  yum install -y java-1.8.0-openjdk-devel.x86_64
+  142  java --version
+  143  java -version
+  144  yum list | grep maven
+  145  yum install maven
+  146  mvn --version
+  147  pwd
+  148  ll
+  149  mvn clean install
+  150  ls -lrth
+  151  cd webapp/
+  152  ll
+  153  cd target/
+  154  ll
+  155  ll
+  156  yum list | grep tomcat
+  157  yum install -y tomcat
+  158  service tomcat start
+  159  ps -ef | grep tomcat
+  160  ll
+  161  cp webapp.war /usr/share/tomcat/webapps/
+  162  cd /usr/share/tomcat/webapps/
+  163  ll
+  164  curl localhost:8080
+  165  curl -v http://localhost:8080/webapp
+  166  ps -ef | grep tomcat
+  167  history
+  168  history
+  169  cd /home/centos/
+  170  ll
+  171  cd CGI/
+  172  ll
+  173  history > march22-commands.txt
